@@ -1,12 +1,43 @@
 .App {
   text-align: center;
+  background-color: #028090;
+  height: 80vh;
+}
+.head {
+  background-color: #05668d;
+  height: 20vh;
+  display: flex;
+  align-content: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.movie-list {
+  list-style: none;
+}
+.movie-list li {
+  font-size: 24px;
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type="text"] {
+  width: 80%;
+  padding: 4%;
+  background-color: #59f3d2;
+  border-style: none;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
-
+input[type="submit"] {
+  width: 200px;
+  padding: 18px;
+  color: #028090;
+  background-color: #f0f3bd;
+  border-style: none;
+  font-size: 17px;
+  font-weight: bold;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
